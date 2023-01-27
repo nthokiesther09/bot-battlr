@@ -5,7 +5,7 @@ function BotCollection({ collection, clickHandler, handleDelete }) {
 
   return (
     <div id ="coll" className="ui four column grid">
-      {"Bot Collection."}
+      {"View Bot Collection."}
       <div className="row">
         {collection.map((bot) => (
           <BotCard key={bot.id} bot={bot} clickHandler={clickHandler} handleDelete={handleDelete} />

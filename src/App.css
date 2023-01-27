@@ -7,19 +7,22 @@ body {
 #yourarmy {
 font-style: oblique;
 font-weight: bolder;
-font-size: large;
+font-size: large;}
 
-}
+
 #coll {
+/* color: #2196f3; */
   font-style: oblique;
   font-weight: bolder;
   font-size: large;
+  justify-content: center;
   
   
 }
 
 .text-wrap {
   word-wrap: break-word;
+  /* justify-content: center; */
 
 }
 
@@ -28,16 +31,16 @@ font-size: large;
   overflow-x: scroll;
   min-height: 300px;
   max-width: 100%;
-
-}
-
-.ui.grid > .row.bot-army-row {
-  flex-wrap: nowrap;
-  min-height: 100%;
- 
+  margin-bottom: 30px;
 }
 
 .ui.grid {
   padding: 0px 20px;
+
+}
+#text {
+  justify-content: center;
+  color:black
+  
 
 }

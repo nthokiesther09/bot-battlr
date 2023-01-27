@@ -1,5 +1,5 @@
 import React from "react";
- import { Link } from "react-router-dom";
+
 
 const botTypeClasses = {
   Assault: "icon military",
@@ -13,8 +13,8 @@ const botTypeClasses = {
 function BotCard({ bot, clickHandler, handleDelete }) {
   return (
     <div className="ui column">
-      <div className="ui card" key={bot.id} onClick={() => clickHandler(bot)}>
-        <div className="image">
+      <div id="bot"    className="ui card" key={bot.id} onClick={() => clickHandler(bot)}>
+        <div id="img" className="image">
           <img alt="oh no!" src={bot.avatar_url} />
         </div>
         <div className="content">
